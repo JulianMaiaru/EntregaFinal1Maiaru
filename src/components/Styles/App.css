@@ -2,3 +2,8 @@
     background-color: aqua;
     color: gray;
 }
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+}
