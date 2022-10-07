@@ -11,11 +11,10 @@ const DetalleProducto = ({ producto }) => {
                 <div className="col-md-8">
                     <div className="card-body">
                         <h5 className="card-title">{producto.nombre} </h5>
-                        <p className="card-text">{producto.modelo}</p>
-                        <p className="card-text">{producto.marca}</p>
-                        <p className="card-text">{producto.precio}</p>
-                        <p className="card-text">{producto.stock}</p>
-                        <button className='btn btn-dark'>Comprar</button>
+                        <p className="card-text">{producto.detalles}</p>
+                        <p className="card-text">Precio: ${producto.precio}</p>
+                        <p className="card-text">Turnos disponibles: {producto.turnos}</p>
+                        <button className='btn btn-dark'>Solicitar</button>
                     </div>
                 </div>
             </div>
