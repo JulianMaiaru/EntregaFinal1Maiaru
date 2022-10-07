@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria":"1",
+        "idCategoria":"reconstruccion",
         "nombre": "Armado de Documentacion Completa",
         "detalles": "Lorem, ipsum dolor",
         "precio": 60000,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "idCategoria":2,
+        "idCategoria":"hijodirecto",
         "nombre": "Gestion y presentacion de documentos",
         "detalles": "Lorem, ipsum dolor",
         "precio": 35000,
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "idCategoria":3,
+        "idCategoria":"viajudicial",
         "nombre": "Gestion de Juicio",
         "detalles": "Lorem, ipsum dolor",
         "precio": 50000,
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "idCategoria":1,
+        "idCategoria":"reconstruccion",
         "nombre": "Busqueda de Acta Argentina",
         "detalles": "Lorem, ipsum dolor",
         "precio": 5000,
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "idCategoria":1,
+        "idCategoria":"reconstruccion",
         "nombre": "Busqueda de Acta/Expedicion Italiana",
         "detalles": "Lorem, ipsum dolor",
         "precio": 30000,
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "idCategoria":1,
+        "idCategoria":"reconstruccion",
         "nombre": "Apostillado de Actas",
         "detalles": "Lorem, ipsum dolor",
         "precio": 2000,
@@ -55,7 +55,7 @@
     },
     {
         "id": 7,
-        "idCategoria":2,
+        "idCategoria":"hijodirecto",
         "nombre": "Solicitud turno en consulado",
         "detalles": "Lorem, ipsum dolor",
         "precio": 6000,
@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "idCategoria":3,
+        "idCategoria":"viajudicial",
         "nombre": "Informacion via judicial",
         "detalles": "Lorem, ipsum dolor",
         "precio": 2000,
@@ -73,7 +73,7 @@
     },
     {
         "id": 9,
-        "idCategoria":1,
+        "idCategoria":"reconstruccion",
         "nombre": "Traduccion de Actas",
         "detalles": "Lorem, ipsum dolor",
         "precio": 30000,
@@ -82,7 +82,7 @@
     },
     {
         "id": 10,
-        "idCategoria":1,
+        "idCategoria":"reconstruccion",
         "nombre": "Anexar menor de edad al AIRE",
         "detalles": "Lorem, ipsum dolor",
         "precio": 2500,

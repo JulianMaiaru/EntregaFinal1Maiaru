@@ -4,8 +4,8 @@ const Dropdow = ({lista}) => {
 const [list, setList] = useState([]);
 
   useEffect(() => {
-    const listaDrop = lista.map((categoria, indice) => 
-      <Link key={indice} className='dropdown-item' to={`/categoria/${indice + 1}`}>{categoria}</Link>
+    const listaDrop = lista.map((categoria) => 
+      <Link key={categoria.id} className='dropdown-item' to={`/categoria/${categoria.path}`}>{categoria.name}</Link>
     )
     setList(listaDrop)
     

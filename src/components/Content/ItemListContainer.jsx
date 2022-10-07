@@ -5,6 +5,7 @@ const Categoria = () => {
 
     const [productos, setProductos] = useState([]);
     const {id} = useParams()
+    console.log(id)
     useEffect(() => {
         consultarBDD('/json/productos.json').then(productos => {
             const productosCategoria = productos.filter(producto => producto.idCategoria === parseInt(id) )
