@@ -1,103 +1,93 @@
 [
     {
         "id": 1,
-        "idCategoria":1,
-        "nombre": "Notebook",
-        "marca": "Lenovo",
-        "modelo": "Y510P",
+        "idCategoria":"1",
+        "nombre": "Armado de Documentacion Completa",
+        "detalles": "Lorem, ipsum dolor",
         "precio": 60000,
-        "stock": 30,
-        "img": "notebook-lenovo.jpg"
+        "turnos": 30,
+        "img": "document1.png"
     },
     {
         "id": 2,
         "idCategoria":2,
-        "nombre": "Celular",
-        "marca": "Xiomi",
-        "modelo": "Mi-9",
+        "nombre": "Gestion y presentacion de documentos",
+        "detalles": "Lorem, ipsum dolor",
         "precio": 35000,
-        "stock": 20,
-        "img": "xiaomi-mi-9.jpg"
+        "turnos": 20,
+        "img": "document2.png"
     },
     {
         "id": 3,
-        "nombre": "Smart Tv",
         "idCategoria":3,
-        "marca": "Novatech",
-        "modelo": "50D1U",
-        "precio": 57000,
-        "stock": 15,
-        "img": "smart-tv-novatech.jpg"
+        "nombre": "Gestion de Juicio",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 50000,
+        "turnos": 5,
+        "img": "document3.png"
     },
     {
         "id": 4,
-        "nombre": "Camara Deportiva",
         "idCategoria":1,
-        "marca": "iQual",
-        "modelo": "C40",
-        "precio": 8000,
-        "stock": 30,
-        "img": "camara-iqual.jpg"
+        "nombre": "Busqueda de Acta Argentina",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 5000,
+        "turnos": 50,
+        "img": "document4.png"
     },
     {
         "id": 5,
-        "nombre": "Mouse",
         "idCategoria":1,
-        "marca": "Logitech",
-        "modelo": "G502",
-        "precio": 1400,
-        "stock": 7,
-        "img": "mouse-logitech.jpg"
+        "nombre": "Busqueda de Acta/Expedicion Italiana",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 30000,
+        "turnos": 10,
+        "img": "document5.png"
     },
     {
         "id": 6,
-        "nombre": "Auriculares",
         "idCategoria":1,
-        "marca": "Motorola",
-        "modelo": "Pulse Escape",
-        "precio": 4000,
-        "stock": 20,
-        "img": "motorola-pulse.jpg"
+        "nombre": "Apostillado de Actas",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 2000,
+        "turnos": 15,
+        "img": "document6.png"
     },
     {
         "id": 7,
         "idCategoria":2,
-        "nombre": "iPhone",
-        "marca": "Apple",
-        "modelo": "X Silver",
-        "precio": 250000,
-        "stock": 10,
-        "img": "iphone-x.jpg"
+        "nombre": "Solicitud turno en consulado",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 6000,
+        "turnos": 35,
+        "img": "document7.png"
     },
     {
         "id": 8,
-        "nombre": "Apple TV",
         "idCategoria":3,
-        "marca": "Apple ",
-        "modelo": "32 Gb",
-        "precio": 45000,
-        "stock": 30,
-        "img": "apple-tv.jpg"
+        "nombre": "Informacion via judicial",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 2000,
+        "turnos": 25,
+        "img": "document8.png"
     },
     {
         "id": 9,
-        "nombre": "Parlante",
         "idCategoria":1,
-        "marca": "Kalley",
-        "modelo": "SPK200",
-        "precio": 34000,
-        "stock": 21,
-        "img": "parlante-kalley.png"
+        "nombre": "Traduccion de Actas",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 30000,
+        "turnos": 15,
+        "img": "document9.png"
     },
     {
         "id": 10,
         "idCategoria":1,
-        "nombre": "Mac",
-        "marca": "Apple",
-        "modelo": "Air",
-        "precio": 13000,
-        "stock": 25,
-        "img": "mac-air.jpg"
+        "nombre": "Anexar menor de edad al AIRE",
+        "detalles": "Lorem, ipsum dolor",
+        "precio": 2500,
+        "turnos": 50,
+        "img": "document10.png"
     }
     
 ]

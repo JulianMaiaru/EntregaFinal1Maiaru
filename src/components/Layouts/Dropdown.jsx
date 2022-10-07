@@ -1,21 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import {useState, useEffect} from 'react'
+const Dropdow = ({lista}) => {
+const [list, setList] = useState([]);
 
-const Dropdown = ({lista}) => {
+  useEffect(() => {
+    const listaDrop = lista.map((categoria, indice) => 
+      <Link key={indice} className='dropdown-item' to={`/categoria/${indice + 1}`}>{categoria}</Link>
+    )
+    setList(listaDrop)
+    
+  }, []);
+   
     return (
         <>
-            <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Informacion Ciudadania</a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="#">{lista [0]}</a>
-                  <a className="dropdown-item" href="#">{lista [1]}</a>
-                  <a className="dropdown-item" href="#">{lista [2]}</a>
-                  <div className="dropdown-divider" />
-                  <a className="dropdown-item" href="#">{lista [3]}</a>
-                </div>
-              </li>
+          <li className="nav-item dropdown">
+            <button className="nav-link dropdown-toggle btn" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios
+            </button>
+          <div className="dropdown-menu">
+            {list}
+          </div>
+          </li>  
         </>
     );
 }
 
-export default Dropdown;
+export default Dropdow;

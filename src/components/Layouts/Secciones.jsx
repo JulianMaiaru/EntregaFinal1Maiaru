@@ -5,16 +5,16 @@ const Secciones = () => {
   return (
     <>
       <li className="nav-item">
-        <Link className="nav-link" to='/'><button type="button" class="btn btn-outline-danger"><i className="fas fa-home"></i></button></Link>
+      <Link className="nav-link btn" to="/"><i className="fas fa-home"></i></Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/servicios">Servicios</Link>
+        <Link className="nav-link btn" to="/servicios">Servicios</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/comunas">Comunas</Link>
+        <Link className="nav-link btn" to="/comunas">Comunas</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/contacto">Contacto</Link>
+        <Link className="nav-link btn" to="/contacto">Contacto</Link>
       </li>
     </>
   );

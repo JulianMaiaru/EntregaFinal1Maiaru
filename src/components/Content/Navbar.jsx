@@ -7,7 +7,7 @@ import Secciones from '../Layouts/Secciones';
 import Producto from './Producto';
 
 const Navbar = () => {
-    const listDrowdon = ["Ciudadania Reconstruccion", "Ciudadania Hijo Directo", "Ciudadania Via Judicial", "Informacion Comunas"]
+    const listDrowdon = ["Ciudadania Reconstruccion", "Ciudadania Hijo Directo", "Ciudadania Via Judicial",]
 
     return (
         <>

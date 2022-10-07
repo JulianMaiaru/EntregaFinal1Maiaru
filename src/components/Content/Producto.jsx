@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import DetalleProducto from './DetalleProducto'
+import DetalleProducto from './ItemDetailContainer'
 import { useParams } from 'react-router-dom';
 import { consultarBDD } from '../utils/funcionesUtiles';
 const Producto = () => {
