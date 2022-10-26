@@ -6,7 +6,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 60000,
         "turnos": 30,
-        "img": "document1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 35000,
         "turnos": 20,
-        "img": "document2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 50000,
         "turnos": 5,
-        "img": "document3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 5000,
         "turnos": 50,
-        "img": "document4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 30000,
         "turnos": 10,
-        "img": "document5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 2000,
         "turnos": 15,
-        "img": "document6.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 6000,
         "turnos": 35,
-        "img": "document7.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 2000,
         "turnos": 25,
-        "img": "document8.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 30000,
         "turnos": 15,
-        "img": "document9.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "detalles": "Lorem, ipsum dolor",
         "precio": 2500,
         "turnos": 50,
-        "img": "document10.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/document1.png?alt=media&token=aa594359-5ddc-49f8-961f-9adbb3f6659f"
     }
     
 ]

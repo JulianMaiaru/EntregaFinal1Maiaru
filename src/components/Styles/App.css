@@ -7,3 +7,8 @@
     width: 18rem;
     margin: 4px;
 }
+
+.darkMode {
+    background-color: black;
+    color: antiquewhite;
+}

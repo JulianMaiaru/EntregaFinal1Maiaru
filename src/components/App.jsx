@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import React, { useState } from 'react';
+import { DarkModeProvider } from '../components/context/darkModeContext';
 
 import Navbar from '../components/Content/Navbar';
 import Form from '../components/Layouts/Form';
-import '../components/Styles/App.css'
+import '../components/Styles/App.css';
 import ItemListContainer from '../components/Content/Producto';
 import Contador from '../components/Layouts/Contador';
 import Home from './Content/ItemListContainerHome';
@@ -19,7 +20,8 @@ import Producto from '../components/Content/Producto';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+    <DarkModeProvider>
+    <BrowserRouter>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -31,6 +33,8 @@ const App = () => {
         </Routes>
         <Footer/>
       </BrowserRouter>
+    </DarkModeProvider>
+
     </>
 
   );
