@@ -26,7 +26,7 @@ const Navbar = () => {
 
                     </div>
                     <li className="nav-item">
-                        <Link className="nav-link" type="button" class="btn btn-info"><i className="bi bi-cart"></i></Link>
+                        <Link className="nav-link" to='/carrito' type="button" class="btn btn-info"><i className="bi bi-cart"></i></Link>
                     </li>
                 </div>
             </nav>
