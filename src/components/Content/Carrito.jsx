@@ -3,8 +3,11 @@ import { CarritoContext } from '../context/CarritoContext';
 import { consultarBDD } from '../utils/funcionesUtiles';
 import {Link} from 'react-router-dom'
 
-const Carrito = () => {
+const Carrito = ({ children }) => {
+
+
     const { carrito, agregarProducto, quitarProducto } = useContext(CarritoContext)
+
     const [carritoLocal, setCarritoLocal] = useState([]);
 
     useEffect(() => {
