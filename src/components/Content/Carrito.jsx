@@ -18,7 +18,8 @@ const Carrito = () => {
                     <p className="card-text">Precio Total: {producto.precio * producto.cantidad}</p>
                     <button className='btn btn-dark' onClick={() => quitarProducto(producto)}>Eliminar</button>
                 </div>
-            </div>)
+            </div>
+            )
         setCarritoLocal(prodMostrar)
     }, [carrito]);
 
@@ -29,6 +30,7 @@ const Carrito = () => {
         </>
 
     return app
+
 }
 
 export default Carrito;
