@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { consultarBDD } from '../utils/funcionesUtiles';
+
 const Categoria = () => {
 
     const [productos, setProductos] = useState([]);

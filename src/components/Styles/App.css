@@ -1,3 +1,7 @@
+#root {
+    width: 100%;
+}
+
 .divGeneral {
     background-color: aqua;
     color: gray;
@@ -6,9 +10,11 @@
 .cardProducto {
     width: 18rem;
     margin: 4px;
+    background-color: rgba(225, 225, 225, 0.8);
 }
 
 .darkMode {
     background-color: black;
     color: antiquewhite;
 }
+

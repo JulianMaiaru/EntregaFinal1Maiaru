@@ -1,6 +1,11 @@
+#root {
+    width: 100%;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: antiquewhite;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/react-34755-2022-eda68.appspot.com/o/6093729.jpg?alt=media&token=b84ba624-0537-42ac-b12e-414c561192c9");
+    background-color: rgb(24, 23, 21);
     color: black;
     transition: all 1s ease-out;
 }

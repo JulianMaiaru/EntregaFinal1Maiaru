@@ -1,4 +1,5 @@
 import React, {createContext, useState} from 'react';
+import Swal from 'sweetalert2';
 
 const CarritoContext = createContext()
 
@@ -19,6 +20,13 @@ const CarritoProvider = (props) => {
         setCarrito(structuredClone(aux))
         console.log(carrito)
 
+        Swal.fire({
+            title: 'Producto Agregado',
+            icon: 'success',
+            timer: 1500,
+            showConfirmButton: false
+          })
+
     }
 
     const quitarProducto = (prod) => {
@@ -28,6 +36,13 @@ const CarritoProvider = (props) => {
         aux.splice(indice,1)
         setCarrito(structuredClone(aux))
         console.log(carrito)
+
+        Swal.fire({
+            title: 'Producto Eliminado',
+            icon: 'error',
+            timer: 1500,
+            showConfirmButton: false
+          })
 
     }
 
