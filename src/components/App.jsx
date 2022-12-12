@@ -17,6 +17,7 @@ import Comunas from './Content/Comunas';
 
 import WeatherApp from './Apis/WeatherApp';
 import Producto from '../components/Content/Producto';
+import DatosComprador from './Content/DatosComprador';
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/comunas" element={<Comunas/>} />
           <Route path="/contacto" element={<Contacto/>} />
           <Route path="/carrito" element={<Carrito/>} />
+          <Route path="/DatosComprador" element={<DatosComprador/>} />
           <Route path='*' element={<h1>Error 404</h1>}/>
         </Routes>
         <Footer/>

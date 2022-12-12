@@ -1,18 +1,19 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import DetalleProducto from './ItemDetailContainer'
 import { useParams } from 'react-router-dom';
-import { consultarBDD } from '../utils/funcionesUtiles';
+import { getProducto } from '../utils/firebase';
+
 const Producto = () => {
     const [producto, setProducto] = useState([]);
     const {id} = useParams()
     useEffect(() => {
-       consultarBDD('/json/productos.json').then(productos => {
-        const producto1 = productos.find(productoArray => productoArray.id == id)
-        setProducto(producto1)
+        getProducto(id).then(prod => { 
+        setProducto(prod)
        })
    
     }, [])
 
+    if (producto.length != 0) {
     return (
         
             <div className="card mb-3" >
@@ -21,6 +22,6 @@ const Producto = () => {
 
        
     );
-}
+}}
 
 export default Producto;
