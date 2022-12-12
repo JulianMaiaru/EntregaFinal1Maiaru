@@ -3,6 +3,8 @@ Hola! Este es mi proyecto.
 Nota: Dado que estoy en medio de un gran viaje, en estos momentos (en Italia tramitando mi ciudadania), tuve muchisimos problemas para asistir a las clases,
 ya sea por cuestiones de tiempo o defasaje horario, me costo mucho seguir el curso, por eso pido disculpas por esta re-entrega y pido un poco de coinsideracion por mi caso. 
 
+->El archivo GIF puede encontrarse en public/"GifProyMaiaru".
+
 Proyecto: Se trata de una tienda de gestoria para ciudadania italiana, la cual esta inspirada en el momento de vida en el cual estoy pasando actualmente.
 -En la pagina podemos encontrar un Navbar donde se filtra diversa informacion general, productos (y sus categorias), contacto y el carrito
 -Al elegir el producto clickeando "ver producto" podemos ver la informacion del mismo, seleccionar dicho producto en cuestion y enviarlo al carrito. Aparecera una notificacion alertando que el producto fue agregado.
